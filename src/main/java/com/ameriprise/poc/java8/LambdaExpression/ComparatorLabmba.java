@@ -28,7 +28,7 @@ public class ComparatorLabmba{
         arrayList.add("**");
 
         Collections.sort(arrayList,comparatorLambda);
-        System.out.println(arrayList.toString());
-
+       // System.out.println(arrayList.toString());
+        arrayList.stream().forEach(str->System.out.println(str));
     }
 }
